@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/script.js"></script>
+    <reset class="css"></reset>
+    <title>Loading...</title>
+</head>
+<body>   
+    <div class="overlay">
+        <h3> Bekijk deze website via je latop of pc voor de beste performance.</h3>
+    </div>
+    <header>
+        <img src="assets/imgs/Logo.svg" alt="logo healthy food market" id="header-logo">
+        <!-- startscherm -->
+        <div class="scene scene-1">
+
+            <a href="#" class="button button-1">START</a>
+        </div>
+
+        <!-- video waarna uitleg komt -->
+        <div class="scene scene-2">
+            <div class="info groen">
+                Je gaat naar de markt om boodschappen te doen. Je kunt kiezen tussen verschillende keurmerken.
+                Klik op de kraampjes om meer informatie te krijgen over het product dat er wordt verkocht in dat kraampje. 
+            </div>
+            <div class="info rood">
+                Verzamel de informatie over de keurmerken en probeer daarmee de meest duurzame keuzes te maken.
+            </div>
+            <a href="#" class="button button-2">NAAR <br> DE MARKT</a>
+
+            <!-- video -->
+            <video src="assets/Berichtjes2.mp4" class="video" id="video"></video>
+
+        </div>
+    </header>
+
+    <main>
+        <audio id="myAudio" loop>
+            <source src="assets/Markt-Geluid.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        <!-- <div class="scene scene-3"> -->
+        <!-- pad met kraampjes -->
+            <img src="assets/imgs/pad.svg" alt="achtergrondpad" id="pad">
+            <div class="scene scene-kraam-1" >
+                <img src="assets/imgs/kraam/SVG/1.svg" alt="" class="kraampje pos1" id="1">
+                <img src="assets/imgs/kraam/SVG/2.svg" alt="" class="kraampje pos2" id="2">
+            </div>
+            <div class="scene scene-kraam-2" >
+                <img src="assets/imgs/kraam/SVG/3.svg" alt="" class="kraampje pos1" id="3">
+                <img src="assets/imgs/kraam/SVG/4.svg" alt="" class="kraampje pos2" id="4">
+            </div>
+            <div class="scene scene-kraam-3" >
+                <img src="assets/imgs/kraam/SVG/5.svg" alt="" class="kraampje pos1" id="5">
+                <img src="assets/imgs/kraam/SVG/6.svg" alt="" class="kraampje pos2" id="6">
+            </div>
+            <div class="scene scene-kraam-4" >
+                <img src="assets/imgs/kraam/SVG/14.svg" alt="" class="kraampje pos1" id="7">
+                <img src="assets/imgs/kraam/SVG/13.svg" alt="" class="kraampje pos2" id="8">
+            </div>
+            <div class="scene scene-kraam-5" >
+                <img src="assets/imgs/kraam/SVG/12.svg" alt="" class="kraampje pos1" id="9">
+                <img src="assets/imgs/kraam/SVG/11.svg" alt="" class="kraampje pos2" id="10">
+            </div>
+            <div class="scene scene-kraam-6">
+                <img src="assets/imgs/kraam/SVG/10.svg" alt="" class="kraampje pos1" id="11">
+                <img src="assets/imgs/kraam/SVG/9.svg" alt="" class="kraampje pos2" id="12">
+            </div>
+            <div class="scene scene-kraam-7" >
+                <img src="assets/imgs/kraam/SVG/8.svg" alt="" class="kraampje pos1" id="13">
+                <img src="assets/imgs/kraam/SVG/7.svg" alt="" class="kraampje pos2" id="14">
+            </div>
+        <!-- </div> -->
+
+        <!-- pop-ups -->
+        <div class="pop-up blue" id="pop1">
+            <h1>Planet proof <br> aardappelen</h1>
+            <p>On the way to PlanetProof is een onafhankelijk keurmerk dat bewijst (‘Proof’) dat je een product koopt dat duurzamer is geproduceerd en daardoor een betere keuze is voor natuur, klimaat én dier. Het keurmerk is er voor eieren, zuivel, aardappelen, groenten en fruit, bloemen, planten, bomen en bloembollen.</p>
+            <img src="assets/cross.svg" alt="" class="cross">
+            <img src="assets/imgs/logos/1.png" alt="" class="logotje">
+            <a href="https://www.planetproof.eu/over-het-keurmerk/" target="_blank"><div class="buttonInfo">Meer informatie? </div></a>
+            <a href="" id="a1"><div class="buttonKies">Kies deze</div></a>
+        </div>
+
+        <div class="pop-up blue" id="pop2">
+            <h1>Krieltjes <br>
+                Uit Nederland</h1>
+            <p>Aardappelen zijn de meest duurzame gewassen van de wereld. Ze gebruiken het minste water op het minste oppervlakte om goed te groeien. Nederland heeft 60% van de hele pootgoed van de wereld in handen.</p>
+            <img src="assets/cross.svg" alt="" class="cross">
+            <a href="https://www.agricopotatoes.com/nl/het-belang-van-aardappelen#:~:text=De%20teelt%20is%20bijzonder%20duurzaam,product%20over%20de%20gehele%20wereld" target="_blank"><div class="buttonInfo">Meer informatie? </div></a>
+            <a href="" id="a2"><div class="buttonKies">Kies deze</div></a>
+        </div>
+
+        <div class="pop-up green" id="pop3">
+
+            <h1>Vis uit <br>
+                noorwegen</h1>
+            <p>40% van de gegeten vis in Nederland komt van buiten Europa. De meeste vis
+                komt uit landen als  Noorwegen, IJsland China en de VS. Tong, schol, kabeljauw, makreel, haring, mosselen en natuurlijk de Hollandse haring worden in de Noordzee gevangen.  80% van deze vangst wordt geëxporteerd.  De rest van de vissoorten worden geïmporteerd, waarbij snel kans is op over vissing.</p>
+            <img src="assets/cross.svg" alt="" class="cross">
+            <img src="assets/imgs/logos/6.png" alt="" class="logotje">
+            <a href="https://www.sciencedirect.com/science/article/pii/S0308597X22002305" target="_blank"><div class="buttonInfo">Meer informatie? </div></a>
+            <a href="" id="b1" ><div class="buttonKies">Kies deze</div></a>
+        </div>
+        <div class="pop-up green" id="pop4">
+
+            <h1>Marine <br> stewardship <br> council</h1>
+            <p>Vis met MSC-keurmerk is afkomstig uit een gezond visbestand dat goed wordt beheerd en waarbij de visserij minimale schade toebrengt aan de natuurlijke leefomgeving van de vis. Uit regelmatig uitgevoerde DNA-tests blijkt dat producten met het MSC keurmerk correct zijn gelabeld. Je kan er dus van op aan dat de vis op je bord daadwerkelijk door een duurzame visserij gevangen is.</p>
+            <img src="assets/cross.svg" alt="" class="cross">
+            <img src="assets/imgs/logos/5.png" alt="" class="logotje">
+            <a href="https://www.msc.org/nl/msc-standaarden/visserijstandaard/vissenwelzijn?gclid=CjwKCAiA3KefBhByEiwAi2LDHAI8afm-Nx-U8XngzoGYqPoyJre4Gdbr8vaA3j9MwYoCKGuoT3X51BoCUuUQAvD_BwE" target="_blank"><div class="buttonInfo">Meer informatie? </div></a>
+            <a href="" id="b2" ><div class="buttonKies">Kies deze</div></a>
+        </div>
+
+        <div class="pop-up red" id="pop5">
+            <h1>Fairtrade <br>
+                bananen</h1>
+            <p>Bananen worden voornamelijk in Colombia, de Dominicaanse Republiek, Ecuador en Peru geproduceerd.
+                Bij deze bananen bepaald de marktwerking de prijs. Met Fairtrade worden de boeren beschermd door een minimum prijs. De sociale omstandigheden worden zo beschermd alleen ligt de focus niet per se op het milieu.</p>
+            <img src="assets/cross.svg" alt="" class="cross">
+            <img src="assets/imgs/logos/4.png" alt="" class="logotje">
+            <a href="https://www.fairtradenederland.nl" target="_blank"><div class="buttonInfo">Meer informatie? </div></a>
+            <a href="" id="c1"><div class="buttonKies">Kies deze</div></a>
+        </div>
+        <div class="pop-up red" id="pop6">
+            <h1>Rainforcest <br> alliance <br> bananen</h1>
+            <p>Rainforest Alliance is een keurmerk voor arbeidsomstandigheden, milieu en natuurbehoud voor producten uit gebieden waar regenwoud groeit. Rainforest Alliance is een milieuorganisatie uit de Verenigde Staten, die ecosystemen en mensen en dieren die daarvan afhankelijk zijn, beschermt. Een belangrijk criterium is bescherming van het regenwoud en het welzijn en het inkomen van arbeiders.</p>
+            <img src="assets/cross.svg" alt="" class="cross">
+            <img src="assets/imgs/logos/3.png" alt="" class="logotje">
+            <a href="https://www.voedingscentrum.nl/encyclopedie/rainforest-alliance-certified.aspx" target="_blank"><div class="buttonInfo">Meer informatie? </div></a>
+            <a href="" id="c2"><div class="buttonKies">Kies deze</div></a>
+        </div>
+
+        <div class="pop-up blue" id="pop7">
+            <h1>Mini <br> komkommers</h1>
+            <p>Mini komkommers zijn in alles vergelijkbaar met normale komkommers, ze belasten de plant minder omdat ze per "oksel" meer vruchten dragen maar ze worden meestal met meer plastic verpakt.</p>
+            <img src="assets/cross.svg" alt="" class="cross">
+            <!-- <img src="assets/imgs/logos/7.png" alt="" class="logotje"> -->
+            <a href="https://www.plantaardig.com/groenteninfo/berichten/minikomkommer-wordt-populaire-groente/" target="_blank"><div class="buttonInfo">Meer informatie? </div></a>
+            <a href="" id="d1"><div class="buttonKies">Kies deze</div></a>
+        </div>
+        <div class="pop-up blue" id="pop8">
+            <h1>Europees <br> biologisch <br> keurmerk</h1>
+            <p>Het Europees biologisch keurmerk maakt duidelijk dat het product voldoet aan de EU-regels en eisen voor biologische productie. Het logo staat verplicht op alle biologische producten die in de Europese Unie (EU) zijn geproduceerd. Op biologische producten van buiten de EU mag het keurmerk gebruikt worden, maar dat is niet verplicht.</p>
+            <img src="assets/cross.svg" alt="" class="cross">
+            <img src="assets/imgs/logos/8.png" alt="" class="logotje">
+            <a href=https://www.voedingscentrum.nl/encyclopedie/europees-biologisch.aspx"" target="_blank"><div class="buttonInfo">Meer informatie? </div></a>
+            <a href="" id="d2"><div class="buttonKies">Kies deze</div></a>
+        </div>
+
+        <div class="pop-up green" id="pop9">
+            <h1>Verse <br> scharrel <br> eieren</h1>
+            <p>Scharreleieren geven de kippen meer ruimte om rond te lopen.
+                Deze ruimte zorgt er wel voor dat kippen rondfladderen en botbreuken kunnen krijgen door ergens tegen aan te botsen. Ook pikken kippen elkaar in deze stallen kaal en is de uitstoot hoger.</p>
+            <img src="assets/cross.svg" alt="" class="cross">
+            <img src="assets/imgs/logos/9.png" alt="" class="logotje">
+            <a href="https://vilt.be/nl/nieuws/duurzaamheid-is-een-raar-beestje-zo-bewijzen-eieren" target="_blank"><div class="buttonInfo">Meer informatie? </div></a>
+            <a href="" id="e1"><div class="buttonKies">Kies deze</div></a>
+        </div>
+        <div class="pop-up green" id="pop10">
+            <h1>Kipster</h1>
+            <p>Kipster produceert, als eerste van de wereld, CO2-neutrale eieren. Dat werkt ongeveer zo: wij proberen onze voetafdruk zo laag mogelijk te houden door bijvoorbeeld zelf energie op te wekken en circulair voer te maken. Wat we uitstoten compenseren we. We streven naar kippenvoer dat voor 95% bestaat uit resten en 5% uit vitamines en mineralen. Onze kippen werken zo al scharrelend mee aan de strijd tegen voedselverspilling.</p>
+            <img src="assets/cross.svg" alt="" class="cross">
+            <img src="assets/imgs/logos/10.png" alt="" class="logotje">
+            <a href="https://www.kipster.nl" target="_blank"><div class="buttonInfo">Meer informatie? </div></a>
+            <a href="" id="e2"><div class="buttonKies">Kies deze</div></a>
+        </div>
+
+        <div class="pop-up red" id="pop11">
+            <h1>Utz certified</h1>
+            <p>UTZ Certified is een internationaal geaccepteerd keurmerk voor koffie en andere producten die afkomstig zijn van boeren die oog hebben voor mens en milieu. Meer dan een miljoen boeren en arbeiders produceren UTZ gecertificeerde koffie, cacao en thee in 36 landen. UTZ certified staat voor duurzame landbouw en een betere toekomst voor boeren, hun families en onze planeet.</p>
+            <img src="assets/cross.svg" alt="" class="cross">
+            <img src="assets/imgs/logos/11.png" alt="" class="logotje">
+            <a href="https://www.rainforest-alliance.org/utz/" target="_blank"><div class="buttonInfo">Meer informatie? </div></a>
+            <a href="" id="f1"><div class="buttonKies">Kies deze</div></a>
+        </div>
+        <div class="pop-up red" id="pop12">
+            <h1>Lokale thee</h1>
+            <p>Door koubestendige thee planten te laten groeien hier in de buurt kan een groot deel van de uitstoot worden vermindert die bij transport vrij komt. Daarnaast is het met zekerheid te zeggen dat deze thee met goede werkomstandigheden wordt verbouwd.</p>
+            <img src="assets/cross.svg" alt="" class="cross">
+            <img src="assets/imgs/logos/12.png" alt="" class="logotje">
+            <a href="https://www.hetkanwel.nl/thee-van-nederlandse-bodem/" target="_blank"><div class="buttonInfo">Meer informatie? </div></a>
+            <a href="" id="f2"><div class="buttonKies">Kies deze</div></a>
+        </div>
+
+        <div class="pop-up blue" id="pop13">
+            <h1>Boeren melk</h1>
+            <p>Boerenmelk is altijd vers omdat de boer de melk zelf verwerkt.
+                Hierdoor kan de melk tot een week eerder dan gewone melk verkocht worden. Hierdoor wordt er ook een stukje transport verwijderd wat zorgt voor minder uitstoot.</p>
+            <img src="assets/cross.svg" alt="" class="cross">
+            <img src="assets/imgs/logos/13.png" alt="" class="logotje">
+            <a href="https://www.appel.nl/nieuws/primeur-appel-start-met-mijn-melk-direct-van-de-lokale-boer/" target="_blank"><div class="buttonInfo">Meer informatie? </div></a>
+            <a href="" id="g1"><div class="buttonKies">Kies deze</div></a>
+        </div>
+        <div class="pop-up blue" id="pop14">
+            <h1>Beter leven <br> melk</h1>
+            <p>Het Beter Leven-keurmerk heeft de Dierenbescherming ontwikkeld om diervriendelijke producten te ondersteunen. Het bestaat uit het logo van de Dierenbescherming met de vermelding 'Beter Leven' en 1, 2 of 3 sterren.  Beter Leven 1-ster is geen topkeurmerk. Beter leven 2- en 3 sterren zijn wel topkeurmerken vanwege hun hoge score op duurzaamheid, transparantie en controle. Bij 2 en 3 sterren is nog meer rekening gehouden met dierenwelzijn.</p>
+            <img src="assets/cross.svg" alt="" class="cross">
+            <img src="assets/imgs/logos/14.png" alt="" class="logotje">
+            <a href="https://beterleven.dierenbescherming.nl" target="_blank"><div class="buttonInfo">Meer informatie? </div></a>
+            <a href="" id="g2"><div class="buttonKies">Kies deze</div></a>
+        </div>
+
+        <div class="meter">
+            <div class="meter-inside"></div>
+        </div>
+
+
+        <div class="scene scene-4">
+            <div class="info groen">
+                Goede keuzes!
+            </div>
+            <img src="assets/imgs/logos/tas.svg" alt="" class="tas">
+            <img src="assets/last/arrow.svg" alt="" class="arrow" id="naar5">
+        </div>
+        <div class="scene scene-5">
+            <div class="info groen">
+                Maar heb je ook de meest duurzame keuzes gemaakt?
+            </div>
+            <div class="redcircle">
+                <div class="item1 item">
+                    <img src="assets/last/Group 653.svg" alt="">
+                    <h2 class="aar">JA</h2>
+                </div>
+
+                <div class="item2 item">
+                    <img src="assets/last/Group 575.svg" alt="">
+                    <h2 class="vis">JA</h2>
+                </div>
+
+                <div class="item3 item">
+                    <img src="assets/last/Group 583.svg" alt="">
+                    <h2 class="ban">JA</h2>
+                </div>
+
+                <div class="item4 item">
+                    <img src="assets/last/Group 467.svg" alt="">
+                    <h2 class="kom">JA</h2>
+                </div>
+
+                <div class="item5 item">
+                    <img src="assets/last/Group 473.svg" alt="">
+                    <h2 class="ei">JA</h2>
+                </div>
+
+                <div class="item6 item">
+                    <img src="assets/last/Group 535.svg" alt="">
+                    <h2 class="the">JA</h2>
+                </div>
+
+                <div class="item7 item">
+                    <img src="assets/last/Group 507.svg" alt="">
+                    <h2 class="mel">JA</h2>
+                </div>
+
+            </div>
+            <img src="assets/last/arrowwhite.svg" alt="" class="arrow" id="naar6">
+            <img src="assets/last/arrowwhite.svg" alt="" class="arrow" id="animatie">
+        </div>
+
+        <div class="scene scene-6">
+            <div class="info groen">
+                Kijk hieronder nog even na wat de juiste keuzes waren en misschien denk je in het vervolg 2 keer na in de supermarkt!
+            </div>
+            <p class="onder">
+                 <a href="https://www.planetproof.eu/over-het-keurmerk/" target="_blank">Planet Proof aardappelen</a>
+            <br>
+                <a href="https://www.voedingscentrum.nl/encyclopedie/rainforest-alliance-certified.aspx" target="_blank">Rainforcest Alliance bananen</a>
+            <br>
+                <a href="https://www.msc.org/nl/msc-standaarden/visserijstandaard/vissenwelzijn?gclid=CjwKCAiA3KefBhByEiwAi2LDHAI8afm-Nx-U8XngzoGYqPoyJre4Gdbr8vaA3j9MwYoCKGuoT3X51BoCUuUQAvD_BwE" target="_blank">Marine stewardship council</a>
+            <br>
+                <a href="https://www.voedingscentrum.nl/encyclopedie/europees-biologisch.aspx" target="_blank">Europees Biologisch keurmerk</a>
+            <br>
+                <a href="https://www.kipster.nl" target="_blank">Kipster</a>
+            <br>
+                <a href="https://www.hetkanwel.nl/thee-van-nederlandse-bodem/" target="_blank">Lokale thee</a>
+            <br>
+                 <a href="https://beterleven.dierenbescherming.nl" target="_blank">Beter Leven melk</a>
+            </p>
+
+            <div class="herstart">herstart</div>
+        </div>
+    </main>
+
+
+    <footer>
+
+    </footer>
+</body>
+</html>
